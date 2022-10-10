@@ -8,6 +8,7 @@
 - prettier
 - scss
 - husky `npx husky install`
+- commitlint
 
 ## vscode 需安装插件
 
