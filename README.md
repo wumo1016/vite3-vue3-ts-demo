@@ -7,6 +7,7 @@
 - eslint
 - prettier
 - scss
+- husky `npx husky install`
 
 ## vscode 需安装插件
 
