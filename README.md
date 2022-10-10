@@ -18,7 +18,7 @@
 
 ```json
 {
-  "editor.formatOnSave": true, //  保存时格式化代码
+  "editor.formatOnSave": true, // 保存时格式化代码
   "editor.defaultFormatter": "esbenp.prettier-vscode" // 使用 prettier 进行格式化
 }
 ```
