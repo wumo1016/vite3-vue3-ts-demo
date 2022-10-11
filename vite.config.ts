@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
     jsx(),
     AutoImport({
-      imports: ['vue', 'vue-router'],
+      imports: ['vue', 'vue-router', 'pinia'],
       eslintrc: { enabled: false }
     })
   ],
@@ -17,5 +17,3 @@ export default defineConfig({
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }]
   }
 })
-
-// npm set-script prepare "husky install"
